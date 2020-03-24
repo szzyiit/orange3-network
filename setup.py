@@ -10,7 +10,7 @@ if sys.version_info < (3, 6):
 
 from numpy.distutils.core import setup
 
-NAME = 'Orange3-Network'
+NAME = 'Orange3-Network-zh'
 DOCUMENTATION_NAME = 'Orange Network'
 
 VERSION = '1.4.2'
@@ -67,7 +67,7 @@ SETUP_REQUIRES = (
 INSTALL_REQUIRES = (
     'pyqtgraph>=0.9.10',
     'numpy>=1.8.0',
-    'Orange3>=3.20'
+    'Orange3-zh>=3.20'
 ),
 
 EXTRAS_REQUIRE = {
@@ -94,7 +94,7 @@ ENTRY_POINTS = {
         'network = orangecontrib.network:networks',
     ),
     'orange.widgets': (
-        'Networks = orangecontrib.network.widgets',
+        '网络(Networks) = orangecontrib.network.widgets',
     )
 }
 

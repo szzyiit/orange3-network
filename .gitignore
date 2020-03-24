@@ -1,7 +1,7 @@
 # Build files
 build
 dist
-Orange3_Network.egg-info
+*.egg-info
 doc/_build
 *.so
 *.pyd
